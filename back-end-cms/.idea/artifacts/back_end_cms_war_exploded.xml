@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="back-end-cms:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/back_end_cms_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="back-end-cms/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="back-end-cms" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="module" name="JUnit4" module-name="back-end-cms" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
